@@ -1,0 +1,20 @@
+{
+  "name": "omni-di",
+  "author": "Valeri Karpov <valkar207@gmail.com>",
+  "version": "0.0.1",
+  "description": "Lightweight argument-based dependency injection",
+  "main": "index.js",
+  "dependencies": {
+    "get-parameter-names": "0.*"
+  },
+  "keywords": [
+    "di",
+    "dependency",
+    "injection",
+    "dependency injection",
+    "injector"
+  ],
+  "engines": {
+    "node": ">= 0.6.0"
+  }
+}
