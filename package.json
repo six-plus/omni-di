@@ -1,7 +1,11 @@
 {
   "name": "omni-di",
   "author": "Valeri Karpov <valkar207@gmail.com>",
-  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bookalokal/omni-di.git"
+  },
+  "version": "0.0.2",
   "description": "Lightweight argument-based dependency injection",
   "main": "index.js",
   "dependencies": {
