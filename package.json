@@ -9,7 +9,7 @@
   "description": "Lightweight argument-based dependency injection",
   "main": "index.js",
   "dependencies": {
-    "get-parameter-names": "0.*"
+    "get-parameter-names": "*"
   },
   "keywords": [
     "di",
