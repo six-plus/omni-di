@@ -38,7 +38,7 @@ exports.DependencyInjector = function() {
       var factoryDependencies = [];
       for (var i = 0; i < params.length; ++i) {
         if (!dependencies.hasOwnProperty(params[i])) {
-          throw new ReferenceError('`' + param + '` has not been registered' +
+          throw new ReferenceError('`' + params[i] + '` has not been registered' +
             ' as a dependency');
         }
 
