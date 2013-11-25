@@ -85,5 +85,15 @@ exports.test = {
       test.equals(b, 2);
       test.done();
     });
+  },
+  testInjectFunctionPrototype : function(test) {
+    DependencyInjector.addInjectToFunctionPrototype();
+
+    this.di.register('a', 1);
+
+    (function(a) {
+      test.equals(a, 1);
+      test.done();
+    }).inject(this.di);
   }
 };
