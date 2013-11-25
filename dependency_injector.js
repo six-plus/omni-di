@@ -32,6 +32,13 @@ exports.DependencyInjector = function() {
       dependencies[name] = obj;
       return _this;
     },
+    registerAll : function(obj) {
+      for (key in obj) {
+        if (obj.hasOwnProperty(key)) {
+          dependencies[key] = obj[key];
+        }
+      }
+    },
     inject : function(factory) {
       var params = getParameterNames(factory);
 
