@@ -8,9 +8,9 @@ Omni stands for "One More NodeJS dependency Injector"
 
     npm install omni-di
 
-## Travis
+## Build Status
 
-    https://travis-ci.org/bookalokal/omni-di
+    [![Build Status](https://travis-ci.org/bookalokal/omni-di.png?branch=master)](https://travis-ci.org/bookalokal/omni-di)
 
 ## Usage
 
