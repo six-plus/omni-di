@@ -10,7 +10,7 @@ Omni stands for "One More NodeJS dependency Injector"
 
 ## Build Status
 
-    [![Build Status](https://travis-ci.org/bookalokal/omni-di.png?branch=master)](https://travis-ci.org/bookalokal/omni-di)
+[![Build Status](https://travis-ci.org/bookalokal/omni-di.png?branch=master)](https://travis-ci.org/bookalokal/omni-di)
 
 ## Usage
 
