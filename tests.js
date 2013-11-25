@@ -77,5 +77,13 @@ exports.test = {
     }
 
     test.done();
+  },
+  testRegisterAll : function(test) {
+    this.di.registerAll({ a : 1, b : 2 });
+    this.di.inject(function(a, b) {
+      test.equals(a, 1);
+      test.equals(b, 2);
+      test.done();
+    });
   }
 };
