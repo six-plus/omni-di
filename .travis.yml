@@ -10,3 +10,7 @@ install:
 
 script:
   - nodeunit tests.js
+
+notifications:
+  email:
+    - valkar207@gmail.com
