@@ -5,7 +5,7 @@
     "type": "git",
     "url": "https://github.com/bookalokal/omni-di.git"
   },
-  "version": "0.0.4",
+  "version": "1.0.0",
   "description": "Lightweight argument-based dependency injection",
   "main": "index.js",
   "dependencies": {
